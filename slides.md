@@ -244,6 +244,26 @@ Slides can be found at [github.com/mariagrandury](https://github.com/mariagrandu
 handle: 'mariagrandury'
 ---
 
+# More Resources
+
+## Explainability:
+
+- C. Molnar, "Interpretable machine learning. A Guide for Making Black Box Models Explainable", 2019, [christophm.github.io/interpretable-ml-book](https://christophm.github.io/interpretable-ml-book/)
+- A. Saucedo, "Guide towards algorithm explainability in machine learning", [talk at PyData London 2019](https://www.youtube.com/watch?v=vq8mDiDODhc)
+- S. Lundberg, "Explainable Machine Learning with Shapley Values", [talk at #H2OWorld 2019](https://www.youtube.com/watch?v=ngOBhhINWb8)
+- A. Chouldechova and A. Roth, “A snapshot of the frontiers of fairness in machine learning,” Commun. ACM, vol. 63, no. 5, pp. 82–89, Apr. 2020, [doi: 10.1145/3376898](https://dl.acm.org/doi/10.1145/3376898)
+- V. Dignum, "The Mith of Complete AI Fairness", 2021, [arXiv:2104.12544v1 [cs.CY]](https://arxiv.org/pdf/2104.12544.pdf)
+
+## Adversarial Attacks:
+
+- "Attacking Machine Learning with Adversarial Examples" - [OpenAI Blog Post](https://openai.com/blog/adversarial-example-research/)
+- FGSM with TensorFlow2 - [TF Tutorial](https://www.tensorflow.org/tutorials/generative/adversarial_fgsm)
+- J. Morris, "TextAttack: A Framework for Data Augmentation and Adversarial Training in NLP", [talk at dair.ai](https://www.youtube.com/watch?v=VpLAjOQHaLU)
+
+---
+handle: 'mariagrandury'
+---
+
 # Code: SHAP & Tabular Data
 
 <div grid="~ cols-2 gap-4">
