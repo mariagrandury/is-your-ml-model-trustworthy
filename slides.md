@@ -229,6 +229,97 @@ handle: 'mariagrandury'
 handle: 'mariagrandury'
 ---
 
+# Code: SHAP & Tabular Data
+
+<div grid="~ cols-2 gap-4">
+
+<div>
+
+```py
+!pip install shap
+
+import xgboost
+import shap
+
+# train an XGBoost model
+X, y = shap.datasets.boston()
+model = xgboost.XGBRegressor().fit(X, y)
+
+# explain the model's predictions using SHAP
+explainer = shap.Explainer(model)
+shap_values = explainer(X)
+
+# visualize the first prediction's explanation
+shap.plots.waterfall(shap_values[0])
+```
+
+</div>
+<div>
+<img style="height: 300px" class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/boston_waterfall.png">
+</div>
+
+</div>
+
+---
+
+# Code: SHAP & NLP
+
+```py
+import transformers
+import shap
+
+# load a transformers pipeline model
+model = transformers.pipeline('sentiment-analysis', return_all_scores=True)
+
+# explain the model on two sample inputs
+explainer = shap.Explainer(model) 
+shap_values = explainer(["What a great movie! ...if you have no taste."])
+
+# visualize the first prediction's explanation for the POSITIVE output class
+shap.plots.text(shap_values[0, :, "POSITIVE"])
+```
+
+<br>
+
+<img style="width: 1000px" class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/sentiment_analysis_plot.png">
+
+---
+handle: 'mariagrandury'
+---
+
+# Code: SHAP & CV
+
+<div grid="~ cols-2 gap-4">
+
+<div>
+
+```py
+import shap
+import numpy as np
+
+# select a set of background examples to take an
+# expectation over
+background = x_train[np.random.choice(
+  x_train.shape[0], 100, replace=False
+)]
+
+# explain predictions of the model on four images
+e = shap.DeepExplainer(model, background)
+shap_values = e.shap_values(x_test[1:5])
+
+# plot the feature attributions
+shap.image_plot(shap_values, -x_test[1:5])
+```
+</div>
+<div>
+<img style="height: 300px; margin-left: -30px" class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/mnist_image_plot.png">
+</div>
+</div>
+
+---
+handle: 'mariagrandury'
+---
+
 # How to improve the performance of my ML Model?
 
 <div grid="~ cols-2 gap-4">
