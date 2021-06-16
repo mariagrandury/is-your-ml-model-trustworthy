@@ -304,25 +304,19 @@ handle: 'mariagrandury'
 <br>
 
 ⭐ [github.com/cleverhans-lab/cleverhans](https://github.com/cleverhans-lab/cleverhans) (5.1k)
+- Attacks: [FGSM Attack](https://arxiv.org/abs/1412.6572), [Carlini Wagner Attack](https://arxiv.org/abs/1608.04644)
+- Defenses: [Resampling](https://archive.nyu.edu/handle/2451/60767)
 
+<br>
 <br>
 
 ✏️ [CleverHans Blog](https://www.cleverhans.io/)
 
-<!-- From abstract: CleverHans is a software library that provides standardized reference implementations of adversarial example construction techniques and adversarial training. The library may be used to develop more robust machine learning models and to provide standardized benchmarks of models' performance in the adversarial setting. -->
 </div>
 
 <div>
 
-Attacks:
-
-- [FGSM Attack](https://arxiv.org/abs/1412.6572)
-- [Carlini Wagner Attack](https://arxiv.org/abs/1608.04644)
-
-<br>
-
-Defenses:
-- [Resampling](https://archive.nyu.edu/handle/2451/60767)
+<img style="height: 300px; margin-left: 80px;" class="rounded" src="https://secml.github.io/images/class3/class3_img1.png">
 
 </div>
 
