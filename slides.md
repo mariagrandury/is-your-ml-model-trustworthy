@@ -114,7 +114,7 @@ handle: 'mariagrandury'
 
 <br>
 
-📄 [Lundberg and Lee, "A Unified Approach to Interpreting Model Predictions" (2018)](https://papers.nips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html)
+📄 Lundberg and Lee, "A Unified Approach to Interpreting Model Predictions", 2017, [NIPS](https://papers.nips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html)
 
 <br>
 
@@ -124,7 +124,7 @@ handle: 'mariagrandury'
 
 - SHapley Additive exPlanations
 - game theoretic approach
-- explain the output of any ML model
+- explain the a prediction by computing the contribution of each feature to the prediction
 
 </div>
 
@@ -144,7 +144,6 @@ handle: 'mariagrandury'
 <div grid="~ cols-2 gap-8">
 
 <div>
-<!-- The above explanation shows features each contributing to push the model output from the base value (the average model output over the training dataset we passed) to the model output. Features pushing the prediction higher are shown in red, those pushing the prediction lower are in blue. -->
 
 The features contribute to push the model output from the base value to the model output:
 
@@ -156,9 +155,10 @@ The features contribute to push the model output from the base value to the mode
 
 Example:
 
-- Boston Housing data set
-- Regression Model
-- XGBoost
+- [Boston Housing data set](https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html)
+  - LSTAT: % lower status of the population
+  - RM: average number of rooms per residence
+- Regression Model (XGBoost)
 
 </div>
 
@@ -180,13 +180,13 @@ handle: 'mariagrandury'
 <div>
 
 - Force plot
-- [Lundberg, Lee et al., "Explainable ML predictions for the prevention of hypoxaemia during surgery" (2018)](https://www.nature.com/articles/s41551-018-0304-0.epdf?author_access_token=vSPt7ryUfdSCv4qcyeEuCdRgN0jAjWel9jnR3ZoTv0PdqacSN9qNY_fC0jWkIQUd0L2zaj3bbIQEdrTqCczGWv2brU5rTJPxyss1N4yTIHpnSv5_nBVJoUbvejyvvjrGTb2odwWKT2Bfvl0ExQKhZw%3D%3D)
+- Lundberg, Lee et al., "Explainable ML predictions for the prevention of hypoxaemia during surgery", 2018, [doi: 10.1038/s41551-018-0304-0](https://doi.org/10.1038/s41551-018-0304-0)
 
 </div>
 
 <div>
 
-- IMDb data set
+- [IMDb movie review data set](https://ai.stanford.edu/~amaas/data/sentiment/)
 - Sentiment Analysis
 - 🤗 Transformers
 - Explanation for the POSITIVE output class
@@ -210,7 +210,7 @@ handle: 'mariagrandury'
 
 <div>
 
-- MNIST data set
+- [MNIST data set](http://yann.lecun.com/exdb/mnist/)
 - Classification Model
 
 </div>
