@@ -242,10 +242,122 @@ handle: 'mariagrandury'
 </div>
 
 ---
+handle: 'mariagrandury'
+---
+
+# Robustness
+
+<br>
+
+<div grid="~ cols-3 gap-4" class="place-items-center">
+<img style="height: 250px" class="rounded" src="https://images.unsplash.com/photo-1612101983844-b37abf2b17f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80">
+
+<img style="height: 250px; margin-left: -80px" class="rounded" src="https://images.unsplash.com/photo-1612725018378-00328e597d9a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80">
+
+
+<img style="height: 250px; margin-left: -80px" class="rounded" src="https://images.unsplash.com/photo-1594482628048-53865e5a59c4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80">
+</div>
+
+---
+handle: 'mariagrandury'
+---
+
+# Adversarial Attacks
+
+📄 Szegedy, “Intriguing properties of neural networks”, 2013, [arXiv:1312.6199 [cs.CV]](https://arxiv.org/abs/1312.6199)
+
+<br>
+
+<div grid="~ cols-2 gap-20">
+
+<div>
+
+📄 Goodfellow, Shlens and Szegedy, "Explaining and Harnessing Adversarial Examples", 2014, [arXiv:1412.6572 [stat.ML]](https://arxiv.org/abs/1412.6572)
+
+<img class="rounded" src="https://www.tensorflow.org/tutorials/generative/images/adversarial_example.png">
+
+</div>
+
+<div>
+
+<figure>
+<img style="height: 200px; margin-left: 40px;" class="rounded" src="https://nicholas.carlini.com/writing/2019/advex_plot.png">
+<figcaption style="font-size: small">A Complete List of All (arXiv) Adversarial Example Papers
+by Nicholas Carlini.</figcaption>
+</figure>
+
+</div>
+</div>
+
+---
+handle: 'mariagrandury'
+---
+
+# Adversarial Attacks with CleverHans
+
+<div grid="~ cols-2 gap-4">
+
+<div>
+
+📄 Papernot, Faghri, Carlini, Goodfellow et al., "Technical Report on the CleverHans v2.1.0 Adversarial Examples Library", 2018, [arXiv:1610.00768 [cs.LG]](https://arxiv.org/abs/1610.00768)
+
+<br>
+
+⭐ [github.com/cleverhans-lab/cleverhans](https://github.com/cleverhans-lab/cleverhans) (5.1k)
+
+<br>
+
+✏️ [CleverHans Blog](https://www.cleverhans.io/)
+
+<!-- From abstract: CleverHans is a software library that provides standardized reference implementations of adversarial example construction techniques and adversarial training. The library may be used to develop more robust machine learning models and to provide standardized benchmarks of models' performance in the adversarial setting. -->
+</div>
+
+<div>
+
+Attacks:
+
+- [FGSM Attack](https://arxiv.org/abs/1412.6572)
+- [Carlini Wagner Attack](https://arxiv.org/abs/1608.04644)
+
+<br>
+
+Defenses:
+- [Resampling](https://archive.nyu.edu/handle/2451/60767)
+
+</div>
+
+</div>
+
+---
+handle: 'mariagrandury'
+---
+
+# Robustness - NLP & TextAttack
+
+<div grid="~ cols-2 gap-4">
+
+<div>
+
+📄 Morris et al., "TextAttack: A Framework for Adversarial Attacks, Data Augmentation, and Adversarial Training in NLP", 2020, [	arXiv:2005.05909 [cs.CL]](https://arxiv.org/abs/2005.05909)
+
+<br>
+
+⭐ [github.com/QData/TextAttack](https://github.com/QData/TextAttack) (1.5k)
+
+
+[All attack recipes](https://textattack.readthedocs.io/en/latest/3recipes/attack_recipes.html)
+</div>
+
+<div>
+<img style="height: 150px; margin-left: 0px" class="rounded" src="https://miro.medium.com/max/700/1*iLzCc-kwmxNVklZjqoCn_A.png">
+
+</div>
+
+</div>
+
 layout: center
 logoHeader: 'https://mlopsworld.com/wp-content/uploads/2020/04/MLOps-Logo-2-150x150.png'
 website: 'mariagrandury.github.io'
-handle: 'mariagrandury'
 ---
 
 <div class="place-items-center">
