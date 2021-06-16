@@ -223,7 +223,22 @@ handle: 'mariagrandury'
 </div>
 </div>
 
+---
+layout: center
+logoHeader: 'https://mlopsworld.com/wp-content/uploads/2020/04/MLOps-Logo-2-150x150.png'
+website: 'mariagrandury.github.io'
+handle: 'mariagrandury'
+---
+
+<div class="place-items-center">
+
+# Thank you!
+
 <br>
+
+Slides can be found at [github.com/mariagrandury](https://github.com/mariagrandury)
+
+</div>
 
 ---
 handle: 'mariagrandury'
