@@ -235,6 +235,11 @@ handle: 'mariagrandury'
 
 <br>
 
+## Let's shape the future of AI Quality!
+[aidkit.ai]()
+
+<br>
+
 Slides can be found at [github.com/mariagrandury](https://github.com/mariagrandury)
 
 </div>
