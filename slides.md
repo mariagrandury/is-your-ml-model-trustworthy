@@ -61,37 +61,36 @@ handle: 'mariagrandury'
 
 <div>
 
-## Performance Metrics
-- Classification:
-  - Accuracy, Precision, Recall, F1-score
-  - ROC, AUC
-- Regression:
-  - MSE, MAE
-  - Pearson CC, R²
-- Ranking: Mean Reciprocal Rank
-- NLP:
-  - BLEU, ROUGE
-  - Perplexity
-- GANs:
-  - Inception score, Frechet Inception distance
+<img style="height: 350px; margin-left: 50px" class="rounded" src="ml_flow.png">
 
 </div>
 
 <div>
 
-<img style="height: 400px; margin-left: 50px" class="rounded" src="ml_flow.png">
+## Performance Metrics
+- Classification: Accuracy, F1-score, AUC
+- Regression: MSE, MAE, R²
+- Ranking: Mean Reciprocal Rank
+- NLP: BLEU, ROUGE, Perplexity
+- GANs: Inception score, Frechet Inception distance
+
+<br>
+<br>
+
+<v-click>
+<div>
+
+## THE Question
+
+🔴 "Is my performance metric high enough?"
+
+✅ "Is my model trustworthy enough?"
 
 </div>
+</v-click>
 
 </div>
-
-<!-- 
-
-https://towardsdatascience.com/20-popular-machine-learning-metrics-part-1-classification-regression-evaluation-metrics-1ca3e282a2ce 
-
-https://towardsdatascience.com/the-most-common-evaluation-metrics-in-nlp-ced6a763ac8b
-
--->
+</div>
 
 ---
 handle: 'mariagrandury'
