@@ -354,6 +354,58 @@ shap.image_plot(shap_values, -x_test[1:5])
 handle: 'mariagrandury'
 ---
 
+# Code: Cleverhans
+
+https://github.com/cleverhans-lab/cleverhans/blob/master/tutorials/tf2/mnist_tutorial.py
+
+```py
+# Train model with adversarial training
+for epoch in range(FLAGS.nb_epochs):
+  # keras like display of progress
+  progress_bar_train = tf.keras.utils.Progbar(60000)
+  for (x, y) in data.train:
+      if FLAGS.adv_train:
+          # Replace clean example with adversarial example for adversarial training
+          x = projected_gradient_descent(model, x, FLAGS.eps, 0.01, 40, np.inf)
+      train_step(x, y)
+
+# Evaluate on clean and adversarial data
+progress_bar_test = tf.keras.utils.Progbar(10000)
+for x, y in data.test:
+  y_pred = model(x)
+  test_acc_clean(y, y_pred)
+
+  x_fgm = fast_gradient_method(model, x, FLAGS.eps, np.inf)
+  y_pred_fgm = model(x_fgm)
+  test_acc_fgsm(y, y_pred_fgm)
+
+  x_pgd = projected_gradient_descent(model, x, FLAGS.eps, 0.01, 40, np.inf)
+  y_pred_pgd = model(x_pgd)
+  test_acc_pgd(y, y_pred_pgd)
+```
+
+---
+handle: 'mariagrandury'
+---
+
+# Code: TextAttack
+
+```sh
+#!/bin/bash
+# how to attack a DistilBERT model fine-tuned on SST2 dataset *from the
+# huggingface model hub using the DeepWordBug recipe and 10 examples
+
+textattack attack
+  --model-from-huggingface distilbert-base-uncased-finetuned-sst-2-english
+  --dataset-from-huggingface glue^sst2
+  --recipe deepwordbug
+  --num-examples 10
+```
+
+---
+handle: 'mariagrandury'
+---
+
 # How to improve the performance of my ML Model?
 
 <div grid="~ cols-2 gap-4">
