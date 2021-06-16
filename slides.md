@@ -97,6 +97,138 @@ https://towardsdatascience.com/the-most-common-evaluation-metrics-in-nlp-ced6a76
 handle: 'mariagrandury'
 ---
 
+# Explainability
+
+<div grid="~ cols-1" class="place-items-center">
+<img style="height: 350px; margin-left: 50px" class="rounded" src="https://www.researchgate.net/profile/Michael-Wade-5/publication/302632920/figure/fig2/AS:751645805789184@1556217733527/Then-a-Miracle-Occurs-Copyrighted-artwork-by-Sydney-Harris-Inc-All-materials-used-with.png">
+</div>
+
+---
+handle: 'mariagrandury'
+---
+
+# Explaining ML Models with SHAP
+
+<div grid="~ cols-2 gap-12">
+
+<div>
+
+<br>
+
+📄 [Lundberg and Lee, "A Unified Approach to Interpreting Model Predictions"](https://papers.nips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html) (2017)
+
+<br>
+
+⭐ [github.com/slundberg/shap](https://github.com/slundberg/shap) (12.9k)
+
+<br>
+
+- SHapley Additive exPlanations
+- game theoretic approach
+- explain the output of any ML model
+
+</div>
+
+<div>
+
+<img style="height: 300px; margin-left: -50px" class="rounded" src="https://shap.readthedocs.io/en/latest/_images/shap_header.png">
+
+</div>
+</div>
+
+---
+handle: 'mariagrandury'
+---
+
+# Explainability with SHAP - Tabular Data
+ 
+<div grid="~ cols-2 gap-8">
+
+<div>
+<!-- The above explanation shows features each contributing to push the model output from the base value (the average model output over the training dataset we passed) to the model output. Features pushing the prediction higher are shown in red, those pushing the prediction lower are in blue. -->
+
+The features contribute to push the model output from the base value to the model output:
+
+🔴 Push the prediction higher 
+
+🔵 Push the prediction lower
+
+<br>
+
+Example:
+
+- Boston Housing data set
+- Regression Model
+- XGBoost
+
+</div>
+
+<div>
+
+<img style="height: 300px; margin-left: -30px" class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/boston_waterfall.png">
+
+</div>
+</div>
+
+---
+handle: 'mariagrandury'
+---
+
+# Explainability with SHAP - NLP
+
+<div grid="~ cols-2 gap-4">
+
+<div>
+
+- Force plot
+- [Lundberg, Lee et al., "Explainable ML predictions for the prevention of hypoxaemia during surgery"](https://www.nature.com/articles/s41551-018-0304-0.epdf?author_access_token=vSPt7ryUfdSCv4qcyeEuCdRgN0jAjWel9jnR3ZoTv0PdqacSN9qNY_fC0jWkIQUd0L2zaj3bbIQEdrTqCczGWv2brU5rTJPxyss1N4yTIHpnSv5_nBVJoUbvejyvvjrGTb2odwWKT2Bfvl0ExQKhZw%3D%3D) (2018)
+
+</div>
+
+<div>
+
+- IMDb data set
+- Sentiment Analysis
+- 🤗 Transformers
+- Explanation for the POSITIVE output class
+
+</div>
+
+</div>
+
+<br>
+<br>
+
+<img style="width: 1000px" class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/sentiment_analysis_plot.png">
+
+---
+handle: 'mariagrandury'
+---
+
+# Explainability with SHAP - Computer Vision
+
+<div grid="~ cols-2 gap-4">
+
+<div>
+
+- MNIST data set
+- Classification Model
+
+</div>
+
+<div>
+
+<img style="width: 30000px; height: 350px; margin-left: -200px" class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/mnist_image_plot.png">
+
+</div>
+</div>
+
+<br>
+
+---
+handle: 'mariagrandury'
+---
+
 # How to improve the performance of my ML Model?
 
 <div grid="~ cols-2 gap-4">
