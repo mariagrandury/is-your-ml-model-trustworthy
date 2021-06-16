@@ -106,6 +106,25 @@ handle: 'mariagrandury'
 handle: 'mariagrandury'
 ---
 
+# Explainability
+
+<br>
+
+XAI plays a crucial role in sensitive domains.
+
+<br>
+
+<div grid="~ cols-2 gap-10" class="place-items-center">
+<img style="height: 250px; margin-left: 50px" class="rounded" src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80">
+
+
+<img style="height: 250px" class="rounded" src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80">
+</div>
+
+---
+handle: 'mariagrandury'
+---
+
 # Explaining ML Models with SHAP
 
 <div grid="~ cols-2 gap-12">
