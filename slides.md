@@ -115,7 +115,7 @@ handle: 'mariagrandury'
 
 <br>
 
-📄 [Lundberg and Lee, "A Unified Approach to Interpreting Model Predictions"](https://papers.nips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html) (2017)
+📄 [Lundberg and Lee, "A Unified Approach to Interpreting Model Predictions" (2018)](https://papers.nips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html)
 
 <br>
 
@@ -181,7 +181,7 @@ handle: 'mariagrandury'
 <div>
 
 - Force plot
-- [Lundberg, Lee et al., "Explainable ML predictions for the prevention of hypoxaemia during surgery"](https://www.nature.com/articles/s41551-018-0304-0.epdf?author_access_token=vSPt7ryUfdSCv4qcyeEuCdRgN0jAjWel9jnR3ZoTv0PdqacSN9qNY_fC0jWkIQUd0L2zaj3bbIQEdrTqCczGWv2brU5rTJPxyss1N4yTIHpnSv5_nBVJoUbvejyvvjrGTb2odwWKT2Bfvl0ExQKhZw%3D%3D) (2018)
+- [Lundberg, Lee et al., "Explainable ML predictions for the prevention of hypoxaemia during surgery" (2018)](https://www.nature.com/articles/s41551-018-0304-0.epdf?author_access_token=vSPt7ryUfdSCv4qcyeEuCdRgN0jAjWel9jnR3ZoTv0PdqacSN9qNY_fC0jWkIQUd0L2zaj3bbIQEdrTqCczGWv2brU5rTJPxyss1N4yTIHpnSv5_nBVJoUbvejyvvjrGTb2odwWKT2Bfvl0ExQKhZw%3D%3D)
 
 </div>
 
