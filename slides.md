@@ -355,6 +355,24 @@ handle: 'mariagrandury'
 
 </div>
 
+---
+handle: 'mariagrandury'
+---
+
+# MLOps workflow
+
+<br>
+
+MLOps Tools: MLflow, Airflow, Neptune, Kubeflow, MLrun...
+- Add one step before deployment!
+
+<br>
+
+<div grid="~ cols-1" class="place-items-center">
+<img style="height: 150px; margin-left: 0px" class="rounded" src="trustworthy_enough.png">
+</div>
+
+---
 layout: center
 logoHeader: 'https://mlopsworld.com/wp-content/uploads/2020/04/MLOps-Logo-2-150x150.png'
 website: 'mariagrandury.github.io'
