@@ -61,7 +61,7 @@ handle: 'mariagrandury'
 
 <div>
 
-<img style="height: 350px; margin-left: 50px" class="rounded" src="https://github.com/mariagrandury/is-your-ml-model-trustworthy/blob/master/diagram_ml_flow.png">
+<img style="height: 350px; margin-left: 50px" class="rounded" src="https://raw.githubusercontent.com/mariagrandury/is-your-ml-model-trustworthy/master/diagram_ml_flow.png">
 
 </div>
 
@@ -363,7 +363,7 @@ MLOps Tools: MLflow, Airflow, Neptune, Kubeflow, MLrun...
 <br>
 
 <div grid="~ cols-1" class="place-items-center">
-<img style="height: 150px; margin-left: 0px" class="rounded" src="https://github.com/mariagrandury/is-your-ml-model-trustworthy/blob/master/diagram_quality_pillars.png">
+<img style="height: 150px; margin-left: 0px" class="rounded" src="https://raw.githubusercontent.com/mariagrandury/is-your-ml-model-trustworthy/master/diagram_quality_pillars.png">
 </div>
 
 ---
