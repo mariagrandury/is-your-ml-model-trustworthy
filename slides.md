@@ -326,27 +326,20 @@ handle: 'mariagrandury'
 handle: 'mariagrandury'
 ---
 
-# Robustness - NLP & TextAttack
+# Adversarial Attacks with TextAttack
 
-<div grid="~ cols-2 gap-4">
+<br>
 
-<div>
-
-📄 Morris et al., "TextAttack: A Framework for Adversarial Attacks, Data Augmentation, and Adversarial Training in NLP", 2020, [	arXiv:2005.05909 [cs.CL]](https://arxiv.org/abs/2005.05909)
+📄 Morris et al., "TextAttack: A Framework for Adversarial Attacks, Data Augmentation, and Adversarial Training in NLP", 2020, [arXiv:2005.05909 [cs.CL]](https://arxiv.org/abs/2005.05909)
 
 <br>
 
 ⭐ [github.com/QData/TextAttack](https://github.com/QData/TextAttack) (1.5k)
 
+<br>
 
-[All attack recipes](https://textattack.readthedocs.io/en/latest/3recipes/attack_recipes.html)
-</div>
-
-<div>
+<div grid="~ cols-1" class="place-items-center">
 <img style="height: 150px; margin-left: 0px" class="rounded" src="https://miro.medium.com/max/700/1*iLzCc-kwmxNVklZjqoCn_A.png">
-
-</div>
-
 </div>
 
 ---
