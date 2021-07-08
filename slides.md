@@ -142,8 +142,8 @@ handle: 'mariagrandury'
 <br>
 
 - SHapley Additive exPlanations
-- game theoretic approach
-- explain the a prediction by computing the contribution of each feature to the prediction
+- Game theoretic approach
+- Explains the output prediction by computing the contribution of each feature to it
 
 </div>
 
