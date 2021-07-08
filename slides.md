@@ -61,7 +61,7 @@ handle: 'mariagrandury'
 
 <div>
 
-<img style="height: 350px; margin-left: 50px" class="rounded" src="ml_flow.png">
+<img style="height: 350px; margin-left: 50px" class="rounded" src="https://raw.githubusercontent.com/mariagrandury/is-your-ml-model-trustworthy/master/diagram_ml_flow.png">
 
 </div>
 
@@ -356,7 +356,7 @@ MLOps Tools: MLflow, Airflow, Neptune, Kubeflow, MLrun...
 <br>
 
 <div grid="~ cols-1" class="place-items-center">
-<img style="height: 150px; margin-left: 0px" class="rounded" src="trustworthy_enough.png">
+<img style="height: 150px; margin-left: 0px" class="rounded" src="https://raw.githubusercontent.com/mariagrandury/is-your-ml-model-trustworthy/master/diagram_quality_pillars.png">
 </div>
 
 ---
@@ -542,69 +542,3 @@ textattack attack
   --recipe deepwordbug
   --num-examples 10
 ```
-
----
-handle: 'mariagrandury'
----
-
-# SHAP Explained
-
-The goal of SHAP is to explain the prediction of an instance x by computing the contribution of each feature to the prediction.
-
-The SHAP explanation method computes Shapley values from coalitional game theory. The feature values of a data instance act as players in a coalition. Shapley values tell us how to fairly distribute the "payout" (= the prediction) among the features.
-
-A player can be an individual feature value, e.g. for tabular data. A player can also be a group of feature values. For example to explain an image, pixels can be grouped to super pixels and the prediction distributed among them.
-
-One innovation that SHAP brings to the table is that the Shapley value explanation is represented as an additive feature attribution method, a linear model. That view connects LIME and Shapley Values. SHAP specifies the explanation as: 
-
-$$
-g(z') = {\phi}_0+ \sum_{j=1}^{M} \phi_j {z′}_j 
-$$
-
-where $g$ is the explanation model,  
-$ z′ \in \{0, 1\}^{M} $ is the coalition vector,
-$M$ is the maximum coalition size and  
-$ {\phi}_j \in \mathbb{R} $ is the feature attribution for a feature $j$, the Shapley values.
-
-<!--
-What I call "coalition vector" is called "simplified features" in the SHAP paper. I think this name was chosen, because for e.g. image data, the images are not represented on the pixel level, but aggregated to super pixels. I believe it is helpful to think about the z's as describing coalitions: In the coalition vector, an entry of 1 means that the corresponding feature value is "present" and 0 that it is "absent". This should sound familiar to you if you know about Shapley values. To compute Shapley values, we simulate that only some features values are playing ("present") and some are not ("absent"). The representation as a linear model of coalitions is a trick for the computation of the ϕ's. For x, the instance of interest, the coalition vector x' is a vector of all 1's, i.e., all feature values are "present". 
--->
-
-[More about SHAP](https://christophm.github.io/interpretable-ml-book/shap.html)
-
----
-handle: 'mariagrandury'
----
-
-# How to improve the performance of my ML Model?
-
-<div grid="~ cols-2 gap-4">
-
-<div>
-
-If bias == high => 
-- Bigger NN (size of hidden units, number of layers)
-- Train longer
-- Different optimization algorithms
-
-<br>
-
-If variance == high (i.e. overfitting) =>
-- More data (data augmentation)
-- Regularization (L2, dropout)
-
-<!-- https://github.com/mbadry1/DeepLearning.ai-Summary/tree/master/2-%20Improving%20Deep%20Neural%20Networks#bias--variance -->
-
-</div>
-
-<div>
-
-<br>
-<br>
-
-<a href="https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff">
-<img style="height: 200px" class="rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Bias_and_variance_contributing_to_total_error.svg/1024px-Bias_and_variance_contributing_to_total_error.svg.png"></a>
-
-</div>
-
-</div>
