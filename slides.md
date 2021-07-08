@@ -57,12 +57,10 @@ handle: 'mariagrandury'
 
 # Functionality
 
-<div grid="~ cols-2 gap-4">
+<div class="grid grid-cols-2">
 
 <div>
-
-<img style="height: 350px; margin-left: 50px" class="rounded" src="https://raw.githubusercontent.com/mariagrandury/is-your-ml-model-trustworthy/master/diagram_ml_flow.png">
-
+  <img class="h-350px rounded" src="https://raw.githubusercontent.com/mariagrandury/is-your-ml-model-trustworthy/master/diagram_ml_flow.png">
 </div>
 
 <div>
@@ -78,15 +76,15 @@ handle: 'mariagrandury'
 <br>
 
 <v-click>
-<div>
+  <div>
 
-## THE Question
+  ## THE Question
 
-🔴 "Is my performance metric high enough?"
+  🔴 "Is my performance metric high enough?"
 
-✅ "Is my model trustworthy enough?"
+  ✅ "Is my model trustworthy enough?"
 
-</div>
+  </div>
 </v-click>
 
 </div>
@@ -98,8 +96,8 @@ handle: 'mariagrandury'
 
 # Explainability
 
-<div grid="~ cols-1" class="place-items-center">
-<img style="height: 350px; margin-left: 50px" class="rounded" src="https://www.researchgate.net/profile/Michael-Wade-5/publication/302632920/figure/fig2/AS:751645805789184@1556217733527/Then-a-Miracle-Occurs-Copyrighted-artwork-by-Sydney-Harris-Inc-All-materials-used-with.png">
+<div>
+  <img class="h-350px mx-auto rounded" src="https://www.researchgate.net/profile/Michael-Wade-5/publication/302632920/figure/fig2/AS:751645805789184@1556217733527/Then-a-Miracle-Occurs-Copyrighted-artwork-by-Sydney-Harris-Inc-All-materials-used-with.png">
 </div>
 
 ---
@@ -114,11 +112,10 @@ XAI plays a crucial role in sensitive domains.
 
 <br>
 
-<div grid="~ cols-2 gap-10" class="place-items-center">
-<img style="height: 250px; margin-left: 50px" class="rounded" src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80">
+<div class="grid grid-cols-2">
+  <img class="h-250px mx-auto rounded" src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80">
 
-
-<img style="height: 250px" class="rounded" src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80">
+  <img class="h-250px mx-auto rounded" src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80">
 </div>
 
 ---
@@ -127,8 +124,7 @@ handle: 'mariagrandury'
 
 # Explaining ML Models with SHAP
 
-<div grid="~ cols-2 gap-12">
-
+<div class="grid grid-cols-2">
 <div>
 
 <br>
@@ -147,9 +143,9 @@ handle: 'mariagrandury'
 
 </div>
 
-<div>
+<div class="container my-auto">
 
-<img style="height: 300px; margin-left: -50px" class="rounded" src="https://shap.readthedocs.io/en/latest/_images/shap_header.png">
+<img class="rounded" src="https://shap.readthedocs.io/en/latest/_images/shap_header.png">
 
 </div>
 </div>
@@ -160,8 +156,7 @@ handle: 'mariagrandury'
 
 # Explainability with SHAP - Tabular Data
  
-<div grid="~ cols-2 gap-8">
-
+<div class="grid grid-cols-2 gap-x-8">
 <div>
 
 The features contribute to push the model output from the base value to the model output:
@@ -181,9 +176,9 @@ Example:
 
 </div>
 
-<div>
+<div class="container my-auto">
 
-<img style="height: 300px; margin-left: -30px" class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/boston_waterfall.png">
+<img class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/boston_waterfall.png">
 
 </div>
 </div>
@@ -194,15 +189,13 @@ handle: 'mariagrandury'
 
 # Explainability with SHAP - NLP
 
-<div grid="~ cols-2 gap-4">
-
+<div class="grid grid-cols-2 gap-x-4">
 <div>
 
 - Force plot
 - Lundberg, Lee et al., "Explainable ML predictions for the prevention of hypoxaemia during surgery", 2018, [doi: 10.1038/s41551-018-0304-0](https://doi.org/10.1038/s41551-018-0304-0)
 
 </div>
-
 <div>
 
 - [IMDb movie review data set](https://ai.stanford.edu/~amaas/data/sentiment/)
@@ -211,13 +204,12 @@ handle: 'mariagrandury'
 - Explanation for the POSITIVE output class
 
 </div>
-
 </div>
 
 <br>
 <br>
 
-<img style="width: 1000px" class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/sentiment_analysis_plot.png">
+<img class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/sentiment_analysis_plot.png">
 
 ---
 handle: 'mariagrandury'
@@ -225,20 +217,13 @@ handle: 'mariagrandury'
 
 # Explainability with SHAP - Computer Vision
 
-<div grid="~ cols-2 gap-4">
-
-<div>
-
 - [MNIST data set](http://yann.lecun.com/exdb/mnist/)
 - Classification Model
 
-</div>
+<br>
 
 <div>
-
-<img style="width: 30000px; height: 350px; margin-left: -200px" class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/mnist_image_plot.png">
-
-</div>
+  <img class="mx-auto h-250px" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/mnist_image_plot.png">
 </div>
 
 ---
@@ -249,13 +234,13 @@ handle: 'mariagrandury'
 
 <br>
 
-<div grid="~ cols-3 gap-4" class="place-items-center">
-<img style="height: 250px" class="rounded" src="https://images.unsplash.com/photo-1612101983844-b37abf2b17f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80">
+<div class="grid grid-cols-3">
+<img class="h-300px rounded" src="https://images.unsplash.com/photo-1612101983844-b37abf2b17f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80">
 
-<img style="height: 250px; margin-left: -80px" class="rounded" src="https://images.unsplash.com/photo-1612725018378-00328e597d9a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80">
+<img class="h-300px rounded" src="https://images.unsplash.com/photo-1612725018378-00328e597d9a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80">
 
 
-<img style="height: 250px; margin-left: -80px" class="rounded" src="https://images.unsplash.com/photo-1594482628048-53865e5a59c4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80">
+<img class="h-300px rounded" src="https://images.unsplash.com/photo-1594482628048-53865e5a59c4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80">
 </div>
 
 ---
@@ -264,27 +249,26 @@ handle: 'mariagrandury'
 
 # Adversarial Attacks
 
-📄 Szegedy, “Intriguing properties of neural networks”, 2013, [arXiv:1312.6199 [cs.CV]](https://arxiv.org/abs/1312.6199)
-
 <br>
 
-<div grid="~ cols-2 gap-20">
+📄 Szegedy, “Intriguing properties of neural networks”, 2013, [arXiv:1312.6199 [cs.CV]](https://arxiv.org/abs/1312.6199)
 
+<div class="grid grid-cols-2 gap-x-20">
 <div>
 
 📄 Goodfellow, Shlens and Szegedy, "Explaining and Harnessing Adversarial Examples", 2014, [arXiv:1412.6572 [stat.ML]](https://arxiv.org/abs/1412.6572)
 
-<img class="rounded" src="https://www.tensorflow.org/tutorials/generative/images/adversarial_example.png">
+<img class="h-170px rounded" src="https://www.tensorflow.org/tutorials/generative/images/adversarial_example.png">
 
 </div>
-
 <div>
 
-<figure>
-<img style="height: 200px; margin-left: 40px;" class="rounded" src="https://nicholas.carlini.com/writing/2019/advex_plot.png">
-<figcaption style="font-size: small">A Complete List of All (arXiv) Adversarial Example Papers
-by Nicholas Carlini.</figcaption>
-</figure>
+  <br>
+  <figure>
+  <img class="mx-auto h-200px rounded" src="https://nicholas.carlini.com/writing/2019/advex_plot.png">
+  <br>
+  <figcaption style="font-size: small">A Complete List of All (arXiv) Adversarial Example Papers by Nicholas Carlini.</figcaption>
+  </figure>
 
 </div>
 </div>
@@ -295,8 +279,7 @@ handle: 'mariagrandury'
 
 # Adversarial Attacks with CleverHans
 
-<div grid="~ cols-2 gap-4">
-
+<div class="grid grid-cols-2 gap-x-4">
 <div>
 
 📄 Papernot, Faghri, Carlini, Goodfellow et al., "Technical Report on the CleverHans v2.1.0 Adversarial Examples Library", 2018, [arXiv:1610.00768 [cs.LG]](https://arxiv.org/abs/1610.00768)
@@ -315,11 +298,8 @@ handle: 'mariagrandury'
 </div>
 
 <div>
-
-<img style="height: 300px; margin-left: 80px;" class="rounded" src="https://secml.github.io/images/class3/class3_img1.png">
-
+  <img class="mx-auto h-300px rounded" src="https://secml.github.io/images/class3/class3_img1.png">
 </div>
-
 </div>
 
 ---
@@ -338,15 +318,13 @@ handle: 'mariagrandury'
 
 <br>
 
-<div grid="~ cols-1" class="place-items-center">
-<img style="height: 150px; margin-left: 0px" class="rounded" src="https://miro.medium.com/max/700/1*iLzCc-kwmxNVklZjqoCn_A.png">
-</div>
+<img class="mx-auto h-180px rounded" src="https://miro.medium.com/max/700/1*iLzCc-kwmxNVklZjqoCn_A.png">
 
 ---
 handle: 'mariagrandury'
 ---
 
-# MLOps workflow
+# MLOps Workflow
 
 <br>
 
@@ -355,9 +333,7 @@ MLOps Tools: MLflow, Airflow, Neptune, Kubeflow, MLrun...
 
 <br>
 
-<div grid="~ cols-1" class="place-items-center">
-<img style="height: 150px; margin-left: 0px" class="rounded" src="https://raw.githubusercontent.com/mariagrandury/is-your-ml-model-trustworthy/master/diagram_quality_pillars.png">
-</div>
+<img class="mx-auto h-150px rounded" src="https://raw.githubusercontent.com/mariagrandury/is-your-ml-model-trustworthy/master/diagram_quality_pillars.png">
 
 ---
 layout: center
@@ -372,7 +348,7 @@ website: 'mariagrandury.github.io'
 <br>
 
 ## Let's shape the future of AI Quality!
-[aidkit.ai]()
+aidkit.ai
 
 <br>
 
@@ -406,8 +382,7 @@ handle: 'mariagrandury'
 
 # Code: SHAP & Tabular Data
 
-<div grid="~ cols-2 gap-4">
-
+<div class="grid grid-cols-2 gap-x-4">
 <div>
 
 ```py
@@ -427,10 +402,10 @@ shap_values = explainer(X)
 # visualize the first prediction's explanation
 shap.plots.waterfall(shap_values[0])
 ```
-
 </div>
+
 <div>
-<img style="height: 300px" class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/boston_waterfall.png">
+  <img class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/boston_waterfall.png">
 </div>
 
 </div>
@@ -456,7 +431,7 @@ shap.plots.text(shap_values[0, :, "POSITIVE"])
 
 <br>
 
-<img style="width: 1000px" class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/sentiment_analysis_plot.png">
+<img class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/sentiment_analysis_plot.png">
 
 ---
 handle: 'mariagrandury'
@@ -464,8 +439,7 @@ handle: 'mariagrandury'
 
 # Code: SHAP & CV
 
-<div grid="~ cols-2 gap-4">
-
+<div class="grid grid-cols-2 gap-x-4">
 <div>
 
 ```py
@@ -486,18 +460,18 @@ shap_values = e.shap_values(x_test[1:5])
 shap.image_plot(shap_values, -x_test[1:5])
 ```
 </div>
+
 <div>
-<img style="height: 300px; margin-left: -30px" class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/mnist_image_plot.png">
+  <img class="mt-70px rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/mnist_image_plot.png">
 </div>
+
 </div>
 
 ---
-handle: 'mariagrandury'
+handle: ''
 ---
 
 # Code: Cleverhans
-
-https://github.com/cleverhans-lab/cleverhans/blob/master/tutorials/tf2/mnist_tutorial.py
 
 ```py
 # Train model with adversarial training
