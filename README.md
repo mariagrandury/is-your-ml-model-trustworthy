@@ -9,7 +9,7 @@
 
   <h1>Is Your ML Model Trustworthy?</h1>
 
-  <p>AI Quality Talk at the <a href="https://mlopsworld.com/"> MLOps World Conference 2021.</a></p>
+  <p>Talk at the <a href="https://mlopsworld.com/"> MLOps World Conference 2021</a></p>
 
   <br>
   <img src="https://pbs.twimg.com/media/E4Ay-3MVkAEBlkt?format=png&name=medium" alt="Talk announcement" width="400"/>
@@ -17,15 +17,9 @@
   
 </div>
 
------
+## Slides
 
-### [Slides](https://is-your-ml-model-trustworthy.netlify.app/1)
-
-The slides are developed using [Slidev](https://github.com/slidevjs/slidev) and deployed with [Netlify](https://www.netlify.com/).
-
-To start the slide show in local:
-
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
-- edit [slides.md](./slides.md) to see the changes
+The slides are
+- developed using [Slidev](https://github.com/slidevjs/slidev),
+- deployed with [Netlify](https://www.netlify.com/), and
+- hosted [here](https://is-your-ml-model-trustworthy.netlify.app/1)!
