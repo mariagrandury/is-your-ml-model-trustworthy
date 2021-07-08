@@ -28,6 +28,7 @@ handle: 'mariagrandury'
 </div>
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 layout: intro
 introImage: 'https://avatars.githubusercontent.com/u/57645283?v=4'
@@ -52,6 +53,7 @@ introImage: 'https://avatars.githubusercontent.com/u/57645283?v=4'
 - ⚡  Core Team [**@WAIRobotics**](https://twitter.com/wairobotics)
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -91,6 +93,7 @@ handle: 'mariagrandury'
 </div>
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -101,6 +104,7 @@ handle: 'mariagrandury'
 </div>
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -119,6 +123,7 @@ XAI plays a crucial role in sensitive domains.
 </div>
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -151,6 +156,7 @@ handle: 'mariagrandury'
 </div>
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -184,6 +190,7 @@ Example:
 </div>
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -212,6 +219,7 @@ handle: 'mariagrandury'
 <img class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/sentiment_analysis_plot.png">
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -227,6 +235,7 @@ handle: 'mariagrandury'
 </div>
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -244,6 +253,7 @@ handle: 'mariagrandury'
 </div>
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -274,6 +284,7 @@ handle: 'mariagrandury'
 </div>
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -303,6 +314,7 @@ handle: 'mariagrandury'
 </div>
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -321,6 +333,7 @@ handle: 'mariagrandury'
 <img class="mx-auto h-180px rounded" src="https://miro.medium.com/max/700/1*iLzCc-kwmxNVklZjqoCn_A.png">
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -339,6 +352,7 @@ MLOps Tools: MLflow, Airflow, Neptune, Kubeflow, MLrun...
 layout: center
 logoHeader: 'https://mlopsworld.com/wp-content/uploads/2020/04/MLOps-Logo-2-150x150.png'
 website: 'mariagrandury.github.io'
+handle: 'mariagrandury'
 ---
 
 <div class="place-items-center">
@@ -357,6 +371,7 @@ Slides can be found at [github.com/mariagrandury](https://github.com/mariagrandu
 </div>
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -378,6 +393,7 @@ Stanford University](https://www.youtube.com/watch?v=CIfsB_EYsVI)
 - J. Morris, "TextAttack: A Framework for Data Augmentation and Adversarial Training in NLP", [talk at dair.ai](https://www.youtube.com/watch?v=VpLAjOQHaLU)
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -435,6 +451,7 @@ shap.plots.text(shap_values[0, :, "POSITIVE"])
 <img class="rounded" src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/sentiment_analysis_plot.png">
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
@@ -469,6 +486,7 @@ shap.image_plot(shap_values, -x_test[1:5])
 </div>
 
 ---
+website: ''
 handle: ''
 ---
 
@@ -501,6 +519,7 @@ for x, y in data.test:
 ```
 
 ---
+website: 'mariagrandury.github.io'
 handle: 'mariagrandury'
 ---
 
