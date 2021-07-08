@@ -11,5 +11,8 @@
     "@slidev/theme-seriph": "*",
     "slidev-theme-unicorn": "^1.0.21"
   },
-  "name": "is-your-ml-model-trustworthy"
+  "name": "is-your-ml-model-trustworthy",
+  "devDependencies": {
+    "playwright-chromium": "^1.12.3"
+  }
 }
